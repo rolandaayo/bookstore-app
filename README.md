@@ -1,50 +1,46 @@
-# Welcome to your Expo app 👋
+<div align="center">
+  <h2 align="center">Ecommerce Store</h2>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  This is a fully responsive and functional ecommerce website, Responsive for all devices. <br/> Built using Next.js and TailwindCSS.
 
-## Get started
+  <a href="https://ecommerce-w3b.vercel.app/"><strong>➥ Live Demo</strong></a>
 
-1. Install dependencies
+</div>
 
-   ```bash
-   npm install
-   ```
+<br />
 
-2. Start the app
+### Demo Screeshots
 
-   ```bash
-   npx expo start
-   ```
+![Micro Desktop Demo](./readme-images/readme-1.png "Desktop Demo")
 
-In the output, you'll find options to open the app in a
+### Prerequisites
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Before you begin, ensure you have met the following requirements:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-## Get a fresh project
+### Installing Ecomerce
 
-When you're ready, run:
+To install **E-commerce Store**, run this command on your git bash:
+
+Linux and macOS:
 
 ```bash
-npm run reset-project
+sudo git clone https://github.com/rolandaayo/ecommerce-store.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Windows:
 
-## Learn more
+```bash
+git clone https://github.com/rolandaayo/ecommerce-store.git
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 💬 Contact
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+If you have an offer, opportunity, or introduction that might make my life more interesting, email me at ibiwoyeroland@gmail.com.
 
-## Join the community
+For the reasons stated above, I'll only respond to proposals that are matched for my schedule and interests.
 
-Join our community of developers creating universal apps.
+### License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is **free to use** and does not contains any license.
