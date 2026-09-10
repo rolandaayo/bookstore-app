@@ -1,21 +1,23 @@
 {
   "expo": {
-    "name": "book-store",
+    "name": "BookStore",
     "slug": "book-store",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "bookstore",
-    "userInterfaceStyle": "automatic",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "backgroundColor": "#080B14"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#080B14"
       },
+      "backgroundColor": "#080B14",
       "edgeToEdgeEnabled": true
     },
     "web": {
@@ -25,13 +27,20 @@
     },
     "plugins": [
       "expo-router",
+      "expo-document-picker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BookStore needs access to your photos to set a cover image."
+        }
+      ],
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "imageWidth": 160,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#080B14"
         }
       ]
     ],
